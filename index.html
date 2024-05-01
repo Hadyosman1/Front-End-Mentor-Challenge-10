@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="image">
+            <img src="./images/logo.svg" alt="logo" />
+          </div>
+          <div class="bars">
+            <i id="icon-bars" class="icon-bars fa-solid fa-bars-staggered"></i>
+          </div>
+          <div id="menu" class="content">
+            <div class="list">
+              <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#resources">Resources</a></li>
+              </ul>
+            </div>
+            <div class="btns">
+              <button class="login">Login</button>
+              <button class="signUp my-btn">Sign Up</button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="landing">
+      <div class="content">
+        <h1>More than just shorter links</h1>
+        <p>
+          Build your brand’s recognition and get detailed insights on how your
+          links are performing.
+        </p>
+        <button class="my-btn">Get Started</button>
+      </div>
+      <div class="image">
+        <img src="./images/illustration-working.svg" alt="landing" />
+      </div>
+    </section>
+
+    <section class="input-container">
+      <div class="container">
+        <div class="content">
+          <div class="input">
+            <input
+              id="url-input"
+              type="text"
+              placeholder="Shorten a link here..."
+            />
+            <p class="warning"></p>
+          </div>
+          <button id="shorten-clicked">Shorten It!</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="links">
+     <button id="clear-links">Clear All Links</button>
+      <div class="container">
+      </div>
+    </section>
+
+    <section class="Statistics">
+      <div class="container">
+        <div class="heading">
+          <h2>Advanced Statistics</h2>
+          <p>
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <div class="image">
+              <img
+                src="./images/icon-brand-recognition.svg"
+                alt="icon-brand-recognition"
+              />
+            </div>
+            <div class="content">
+              <h3>Brand Recognition</h3>
+              <p>
+                Boost your brand recognition with each click. Generic links
+                don’t mean a thing. Branded links help instil confidence in your
+                content.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="image">
+              <img
+                src="./images/icon-detailed-records.svg"
+                alt="icon-detailed-records"
+              />
+            </div>
+            <div class="content">
+              <h3>Detailed Records</h3>
+              <p>
+                Gain insights into who is clicking your links. Knowing when and
+                where people engage with your content helps inform better
+                decisions.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="image">
+              <img
+                src="./images/icon-fully-customizable.svg"
+                alt="icon-fully-customizable"
+              />
+            </div>
+            <div class="content">
+              <h3>Fully Customizable</h3>
+              <p>
+                Improve brand awareness and content discoverability through
+                customizable links, supercharging audience engagement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Boost">
+      <div class="container">
+        <h2>Boost your links today</h2>
+        <button class="my-btn">Get Started</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <img src="./images/logoLight.svg" alt="logo" />
+        </div>
+        <div class="lists">
+          <div class="list">
+            <h3>Features</h3>
+            <ul>
+              <li>Link Shortening</li>
+              <li>Branded Links</li>
+              <li>Analytics</li>
+            </ul>
+          </div>
+          <div class="list">
+            <h3>Resources</h3>
+            <ul>
+              <li>Blog</li>
+              <li>Developers</li>
+              <li>Support</li>
+            </ul>
+          </div>
+          <div class="list">
+            <h3>Company</h3>
+            <ul>
+              <li>About</li>
+              <li>Our Team</li>
+              <li>Careers</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+        <div class="social-media">
+          <div class="icons">
+            <a href="https://www.facebook.com/haadii.osman" target="_blank"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+            <a href="https://twitter.com/hadyOsman_" target="_blank"
+              ><i class="fa-brands fa-square-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/hady_osman22/" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
